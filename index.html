@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hand-Controlled Desert Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Home Screen -->
+    <div id="home-screen">
+        <h1>🏜️ Desert Jump Game</h1>
+        <p>Allow webcam, then make a ✊ fist to jump!</p>
+        <video id="webcam" autoplay playsinline></video>
+        <button id="start-btn">Start Game</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen">
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div id="hud">
+            Score: <span id="score">0</span> |
+            High Score: <span id="highscore">0</span>
+            <div id="fist-status">🖐️ Open Hand</div>
+        </div>
+        <video id="game-webcam" autoplay playsinline></video>
+    </div>
+
+    <!-- MediaPipe libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
