@@ -22,10 +22,7 @@ AI Detection	MediaPipe Hands
 Video Capture	WebRTC (via browser webcam access)
 Rendering	HTML5 Canvas API
 Storage	Browser LocalStorage
-⚙️ How to Run Locally
-1️⃣ Clone or Download the Project
-git clone https://github.com/your-username/ai-hand-runner.git
-cd ai-hand-runner
+
 
 2️⃣ Project Structure
 📁 AI-Hand-Runner/
