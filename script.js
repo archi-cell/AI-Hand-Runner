@@ -17,9 +17,9 @@ let cameraStarted = false;
 
 // Load images
 const playerImg = new Image();
-playerImg.src = "assets/soldier.png";
+playerImg.src = "soldier.png";
 const fireImg = new Image();
-fireImg.src = "assets/fire.png";
+fireImg.src = "fire.png";
 
 // 🟢 Load or initialize high score from localStorage
 highScore = localStorage.getItem("highScore")
