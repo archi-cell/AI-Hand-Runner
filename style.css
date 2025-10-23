@@ -61,7 +61,7 @@ body {
 #gameCanvas {
     display: block;
     margin: 0 auto;
-    background: url("assets/desert_bg.png") no-repeat center center;
+    background: url("desert_bg.png") no-repeat center center;
     background-size: cover;
     border: 3px solid #444;
     border-radius: 10px;
